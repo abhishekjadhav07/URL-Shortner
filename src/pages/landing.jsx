@@ -21,7 +21,7 @@ const LandingPage = () => {
   return (
     <div className="flex flex-col items-center">
       <h2 className="my-10 sm:my-16 text-3xl sm:text-6xl lg:text-7xl text-white text-center font-extrabold">
-        The only URL Shortner <br /> you&rsquo;ll ever need!💁‍♂️
+        The Ultimate <br/> URL Shortening Solution You Can Rely On! 🚀
       </h2>
 
       <form
@@ -39,7 +39,7 @@ const LandingPage = () => {
           Shorten!
         </Button>
       </form>
-      <Accordion type="multiple" collapsible className="w-full md:px-11">
+      {/* <Accordion type="multiple" collapsible className="w-full md:px-11">
         <AccordionItem value="item-1">
           <AccordionTrigger>
             How does the Trimrr URL shortener works?
@@ -68,7 +68,7 @@ const LandingPage = () => {
             and device types (mobile/desktop) for each of your shortened URLs.
           </AccordionContent>
         </AccordionItem>
-      </Accordion>
+      </Accordion> */}
     </div>
   );
 };
